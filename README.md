@@ -1,21 +1,18 @@
 # 互联网 Java 工程师进阶知识完全扫盲
 
-[![stars](https://img.shields.io/github/stars/doocs/advanced-java?color=42b883&logo=github&style=flat-square)](https://github.com/doocs/advanced-java/stargazers)
-[![forks](https://img.shields.io/github/forks/doocs/advanced-java?color=42b883&logo=github&style=flat-square)](https://github.com/doocs/advanced-java/network/members)
-[![actions status](https://img.shields.io/github/workflow/status/doocs/advanced-java/Sync?color=42b883&label=sync&logo=github&style=flat-square)](https://github.com/doocs/advanced-java/actions?query=workflow%3ASync)
-[![actions status](https://img.shields.io/github/workflow/status/doocs/advanced-java/Prettier?color=42b883&label=prettier&logo=github&style=flat-square)](https://github.com/doocs/advanced-java/actions?query=workflow%3APrettier)
-[![license](https://img.shields.io/github/license/doocs/advanced-java?color=42b883&style=flat-square)](./LICENSE)
-[![doocs](https://img.shields.io/badge/organization-join%20us-42b883?style=flat-square)](https://doocs.github.io/#/?id=how-to-join)
-[![original](https://img.shields.io/badge/original-%E4%B8%AD%E5%8D%8E%E7%9F%B3%E6%9D%89-42b883?style=flat-square)](https://github.com/doocs/advanced-java)
-[![notice](https://img.shields.io/badge/notice-%E7%BB%B4%E6%9D%83%E8%A1%8C%E5%8A%A8-42b883?style=flat-square)](./docs/extra-page/rights-defending-action.md)
-[![wechat-group](https://img.shields.io/badge/chat-%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81-42b883?style=flat-square)](#公众号)
-[![coding](https://img.shields.io/badge/leetcode-%E5%88%B7%E9%A2%98%E5%B0%8F%E9%98%9F-42b883?style=flat-square)](https://github.com/doocs/leetcode)
+[![stars](https://img.shields.io/github/stars/doocs/advanced-java?color=42b883&logo=github&style=flat-square&logoColor=ffffff)](https://github.com/doocs/advanced-java/stargazers)
+[![forks](https://img.shields.io/github/forks/doocs/advanced-java?color=42b883&logo=github&style=flat-square&logoColor=ffffff)](https://github.com/doocs/advanced-java/network/members)
+[![actions status](https://img.shields.io/github/workflow/status/doocs/advanced-java/Sync?color=42b883&label=sync&logo=githubactions&style=flat-square&logoColor=ffffff)](https://github.com/doocs/advanced-java/actions?query=workflow%3ASync)
+[![actions status](https://img.shields.io/github/workflow/status/doocs/advanced-java/Prettier?color=42b883&label=prettier&logo=githubactions&style=flat-square&logoColor=ffffff)](https://github.com/doocs/advanced-java/actions?query=workflow%3APrettier)
+[![license](https://img.shields.io/github/license/doocs/advanced-java?color=42b883&style=flat-square&logo=homeassistantcommunitystore&logoColor=ffffff)](./LICENSE)
+[![doocs](https://img.shields.io/badge/org-join%20us-42b883?style=flat-square&logo=homeassistantcommunitystore&logoColor=ffffff)](https://doocs.github.io/#/?id=how-to-join)
+[![discord-chat](https://img.shields.io/discord/901805669529825301.svg?logo=discord&color=42b883&style=flat-square&logoColor=ffffff)](https://discord.gg/qUFwPPEYEy)
 
 本项目大部分内容来自中华石杉，版权归作者所有，内容涵盖[高并发](#高并发架构)、[分布式](#分布式系统)、[高可用](#高可用架构)、[微服务](#微服务架构)、[海量数据处理](#海量数据处理)等领域知识。我对这部分知识做了一个系统的整理，方便学习查阅。
 
-本项目已开通 [Discussions](https://github.com/doocs/advanced-java/discussions) 功能。学习之前，先来看看 [Discussions 讨论区](https://github.com/doocs/advanced-java/discussions/9)的技术面试官是怎么说的吧。本项目欢迎各位开发者朋友到 [Discussions 讨论区](https://github.com/doocs/advanced-java/discussions)分享自己的一些想法和实践经验。也不妨 Star 关注 [doocs/advanced-java](https://github.com/doocs/advanced-java)，随时追踪项目最新动态。
+本项目已开通 Discussions 功能。学习之前，先来看看 [Discussions 讨论区](https://github.com/doocs/advanced-java/discussions/9)的技术面试官是怎么说的吧。本项目欢迎各位开发者朋友到 Discussions 讨论区分享自己的一些想法和实践经验。也不妨 Star 关注 [doocs/advanced-java](https://github.com/doocs/advanced-java)，随时追踪项目最新动态。
 
-本项目基于 [Docsify](https://docsify.js.org) 进行构建，并同步部署（这里用到 [Gitee Pages Action](https://github.com/yanglbme/gitee-pages-action) 自动部署工具，非常好用的一个开源工具，欢迎 Star 关注）在以下三个站点：
+本项目基于 Docsify 进行构建，并使用开源小工具 [Gitee Pages Action](https://github.com/yanglbme/gitee-pages-action) 实现站点的自动部署更新。目前支持以下三个站点访问：
 
 - Netlify: https://adjava.netlify.app
 - Gitee Pages: https://doocs.gitee.io/advanced-java
@@ -124,7 +121,7 @@
 
 ### 限流
 
-- [如何限流？在工作中是怎么做的？说一下具体的实现？](./docs/high-concurrency/huifer-how-to-limit-current.md)
+- [如何限流？在工作中是怎么做的？说一下具体的实现？](./docs/high-concurrency/how-to-limit-current.md)
 
 ### 熔断
 
@@ -147,13 +144,13 @@
 
 ### Spring Cloud 微服务架构
 
-- [什么是微服务？微服务之间是如何独立通讯的？](./docs/micro-services/huifer-what's-microservice-how-to-communicate.md)
+- [什么是微服务？微服务之间是如何独立通讯的？](./docs/micro-services/what's-microservice-how-to-communicate.md)
 - Spring Cloud 和 Dubbo 有哪些区别？
 - Spring Boot 和 Spring Cloud，谈谈你对它们的理解？
 - 什么是服务熔断？什么是服务降级？
 - 微服务的优缺点分别是什么？说一下你在项目开发中碰到的坑？
-- [你所知道的微服务技术栈都有哪些？](./docs/micro-services/huifer-micro-services-technology-stack.md)
-- [微服务治理策略](./docs/micro-services/huifer-micro-service-governance.md)
+- [你所知道的微服务技术栈都有哪些？](./docs/micro-services/micro-services-technology-stack.md)
+- [微服务治理策略](./docs/micro-services/micro-service-governance.md)
 - Eureka 和 Zookeeper 都可以提供服务注册与发现的功能，它们有什么区别？
 - [谈谈服务发现组件 Eureka 的主要调用过程？](./docs/micro-services/how-eureka-enable-service-discovery-and-service-registration.md)
 - ......
@@ -171,6 +168,12 @@
 - [如何按照 query 的频度排序？](./docs/big-data/sort-the-query-strings-by-counts.md)
 - [如何找出排名前 500 的数？](./docs/big-data/find-rank-top-500-numbers.md)
 - [讲讲大数据中 TopK 问题的常用套路？](./docs/big-data/topk-problems-and-solutions.md)
+
+## Stars 趋势
+
+<a href="https://github.com/doocs/advanced-java/stargazers" target="_blank"><img src="./images/starcharts.svg" alt="Stargazers over time" /></a>
+
+注：本趋势图由 [actions-starcharts](https://github.com/MaoLongLong/actions-starcharts) 自动定时刷新。
 
 ---
 
